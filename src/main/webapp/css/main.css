@@ -1,34 +1,40 @@
+
 .navbar {
 	background-color: orange;
-	border-color:orange;	
+	border-color: orange;
 }
 
-.navbar > .container > div > .navbar-nav > li > a:hover {
-	backgroun: none;
-	color: yellow;
+.navbar > .container > div > .navbar-nav > li > a {
+	background: none;
+	color: white;
 	font-weight: bold;
 }
 
-
 .navbar > .container > div > .navbar-nav > li > a:hover {
-	backgroun: none;
+	background: none;
 	color: yellow;
 	font-weight: bold;
 }
 
 .navbar > .container > .navbar-header > a {
-	backgroun: none;
+	background: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar > .container > .navbar-header > a:hover {
+	background: none;
 	color: yellow;
 	font-weight: bold;
 }
 
-.navbar > .container > .navbar-header > a.hover {
-	backgroun: none;
-	color: yellow;
+.panel > .panel-heading {
+	background-color: blue;
+	color: white;
 	font-weight: bold;
 }
 
 
 textarea {
-	width:100%
+	width: 100%;
 }
